@@ -1,22 +1,22 @@
-# Nombre del Proyecto
+# Tubol Demo
 
-Breve descripción del proyecto.
+This is a demo of a web page called Tubol.
 
-## Requisitos
+## Requirements
 
-- Node.js (preferiblemente la última versión estable)
-- pnpm (puedes instalarlo globalmente con `npm install -g pnpm`)
+- Node.js (preferably the latest stable version)
+- pnpm (you can install it globally with `npm install -g pnpm`)
 
-## Instalación
+## Installation
 
-1. Clona este repositorio: `git clone <URL_del_repositorio>`
-2. Ve al directorio del proyecto: `cd nombre_del_directorio`
-3. Instala las dependencias usando pnpm: `pnpm install`
+1. Clone this repository: `git clone <repository_URL>`
+2. Navigate to the project directory: `cd directory_name`
+3. Install dependencies using pnpm: `pnpm install`
 
-## Uso
+## Usage
 
-Describe cómo se puede utilizar o probar el proyecto. Puedes incluir ejemplos de comandos, configuraciones, etc.
+Describe how the project can be used or tested. You can include examples of commands, configurations, etc.
 
 ```bash
-# Ejemplo de cómo iniciar el servidor
+# Example of how to start the server
 pnpm start
