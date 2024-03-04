@@ -5,6 +5,11 @@ import NavBar from "@/components/NavBar";
 export default function Home() {
   return (
     <body>
+      <header>
+        <a href="#">Leader board</a>
+        <a href="#">Request Demo</a>
+        <a href="#">Try Free</a>
+      </header>
       <NavBar />
       <main>
         <section>

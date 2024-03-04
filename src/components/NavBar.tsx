@@ -1,29 +1,36 @@
 "use client";
+import Image from "next/image";
 
 function NavBar() {
   return (
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Products</a>
-        </li>
-        <li>
-          <a href="#">Solutions</a>
-        </li>
-        <li>
-          <a href="#">Tribe</a>
-        </li>
-        <li>
-          <a href="#">Insights</a>
-        </li>
-        <li>
-          <a href="#">Why Tubol</a>
-        </li>
-        <li>
-          <a href="#">LOG IN</a>
-        </li>
-      </ul>
-    </nav>
+    <nav className="">
+    <ul className="">
+      <li className="">
+        <a href="/">
+          <Image src="/logo.png" alt="Logo" className="" height="100" width="100"/>
+        </a>
+      </li>
+      <li className="">
+        <a href="#" className="">Products</a>
+      </li>
+      <li className="">
+        <a href="#" className="">Solutions</a>
+      </li>
+      <li className="">
+        <a href="#" className="">Tribe</a>
+      </li>
+      <li className="">
+        <a href="#" className="">Insights</a>
+      </li>
+      <li className="">
+        <a href="#" className="">Why Tubol</a>
+      </li>
+      <li className="">
+        <a href="#" className="">Log In</a>
+      </li>
+    </ul>
+  </nav>
+  
   );
 }
 
